@@ -1,23 +1,23 @@
 const portuguese = {
   language: {
-    label: 'Brazilian Portuguese',
+    label: 'Brazil Português',
     locale: 'pt'
   },
   seo: {
     keywords:
-      'teste de personalidade big five, teste de personalidade big 5, teste b5, teste bigfive, traços de personalidade, bigfive, comparar, gratuito, jordan peterson'
+      'teste de personalidade big five, teste de personalidade big 5, teste b5, teste bigfive, traços de personalidade, bigfive, comparar, gratuito'
   },
   frontpage: {
     seo: {
       title:
-        'Teste BigFive de traços de personalidade gratuito e de código aberto',
+        'Aprova PM',
       description:
         'Faça gratuitamente um teste de personalidade Big Five de código aberto. Aprenda a conhecer seus traços de personalidade e compare-se com seu parceiro ou parceira, colegas, amigos ou família.'
     },
     title: 'Teste de Personalidade Big Five',
     call_to_action: 'Faça um teste gratuito agora',
-    no_registration: '* Não precisa se registrar',
-    tests_taken: 'Mais de <green>{n}</green> pessoas fizeram o teste',
+    no_registration:'', //'* Não se registrar',
+    tests_taken: '', //'Mais de <green>{n}</green> pessoas fizeram o teste',
     compare: {
       title: 'Compare-se com outros',
       text1:
@@ -46,7 +46,7 @@ const portuguese = {
       }
     },
     description: {
-      top: 'Aprenda a se conhecer melhor com um teste de personalidade <violet>gratuito</violet> e de código aberto.',
+      top: 'Falaaa ELITE... Aprenda a se conhecer melhor com um teste de personalidade <violet>gratuito</violet>.',
       subtop: 'O',
       subtop2:
         ' é o modelo psicológico mais validado cientificamente e confiável para medir a personalidade.',
@@ -193,11 +193,11 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     theBigFive: 'Os Cinco Grandes',
     score: 'pontuação',
     important: 'Importante!',
-    saveResults: 'Salve a seguinte ID para ver os resultados depois ou ',
-    compare: 'compare-se',
-    toOthers: 'com ou outros',
+    saveResults: 'Salve a seguinte ID para ver os resultados depois.',
+    compare: '',//'compare-se',
+    toOthers: '',//'com ou outros',
     seo: {
-      title: 'Meus resultados do teste de personalidade BigFive',
+      title: 'Meus resultados do teste de personalidade',
       description:
         'Veja minha personalidade e compare-se nos cinco domínios seguintes: Neuroticismo, Abertura à Experiência, Consciência, Extroversão, Afabilidade'
     }

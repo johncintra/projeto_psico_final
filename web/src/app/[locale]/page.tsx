@@ -37,7 +37,7 @@ export default function Home({ params: { locale } }: Props) {
     .sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
     .slice(0, 3);
 
-  const features = [
+  /*const features = [
     {
       title: t('cards.open.title'),
       description: t('cards.open.text'),
@@ -59,7 +59,7 @@ export default function Home({ params: { locale } }: Props) {
       icon: LanguageIcon({}),
       href: 'https://b5.translations.alheimsins.net/'
     }
-  ];
+  ];*/
 
   const titleDescription = t.rich('description.top', {
     violet: (chunks) => (
@@ -103,22 +103,7 @@ export default function Home({ params: { locale } }: Props) {
               >
                 {t('call_to_action')} <ArrowRightIcon />
               </Link>
-              <Link
-                isExternal
-                className={clsx(
-                  buttonStyles({
-                    variant: 'bordered',
-                    radius: 'full',
-                    size: 'lg',
-                    fullWidth: true
-                  }),
-                  'md:w-auto'
-                )}
-                href={siteConfig.links.github}
-              >
-                <GithubIcon size={20} />
-                GitHub
-              </Link>
+              
             </div>
           </div>
 
@@ -128,22 +113,18 @@ export default function Home({ params: { locale } }: Props) {
         </section>
 
         <div className='mt-20 mx-2'>
-          <FeaturesGrid features={features} />
+          
         </div>
       </div>
 
-      <section className='border-t border-b border-divider px-8 mt-16 lg:mt-44 text-center'>
-        <div className='my-8'>
-          <h1 className={title()}>{testsTaken}</h1>
-        </div>
-      </section>
+
 
       <div className='mt-20 text-center'>
-        <h1 className={title()}>{t('compare.title')}</h1>
+        
 
         <div className='mt-10'>
           <div className='text-lg lg:text-xl font-normal text-default-500'>
-            {t('compare.text1')} {t('compare.text2')}
+            
           </div>
         </div>
       </div>
@@ -159,19 +140,7 @@ export default function Home({ params: { locale } }: Props) {
               offset={10}
               radius='full'
             >
-              <Button
-                isIconOnly
-                aria-label={t('call_to_action')}
-                className='z-50 w-auto h-auto bg-gradient-to-b from-[#FF1CF7] to-[#7928CA]'
-                radius='full'
-                as={Link}
-                href='/test'
-              >
-                <PlusLinearIcon
-                  className='flex items-center justify-center rounded-full text-white'
-                  size={54}
-                />
-              </Button>
+            
             </Tooltip>
           }
         >
@@ -184,24 +153,7 @@ export default function Home({ params: { locale } }: Props) {
             }}
           >
             {buildCircle([
-              {
-                name: f('openness_to_experience.title'),
-                href: '/articles/openness_to_experience'
-              },
-              {
-                name: f('conscientiousness.title'),
-                href: '/articles/conscientiousness'
-              },
-              { name: f('extraversion.title'), href: '/articles/extraversion' },
-              {
-                name: t('compare.action'),
-                href: '/compare/W3sibmFtZSI6Ik1hcnZpbiIsImlkIjoiNThhNzA2MDZhODM1YzQwMGM4YjM4ZTg0In0seyJuYW1lIjoiQXJ0aHVyIERlbnQiLCJpZCI6IjVlNTZiYTdhYjA5NjEzMDAwN2Q1ZDZkOCJ9LHsibmFtZSI6IkZvcmQgUGVyZmVjdCIsImlkIjoiNWRlYTllODhlMTA4Y2IwMDYyMTgzYWYzIn0seyJuYW1lIjoiU2xhcnRpYmFydGZhc3QiLCJpZCI6IjVlNTZiNjUwYjA5NjEzMDAwN2Q1ZDZkMCJ9XQ'
-              },
-              {
-                name: f('agreeableness.title'),
-                href: '/articles/agreeableness'
-              },
-              { name: f('neuroticism.title'), href: '/articles/neuroticism' }
+             
             ]).map((e, idx) => (
               <div key={idx}>
                 <Button
