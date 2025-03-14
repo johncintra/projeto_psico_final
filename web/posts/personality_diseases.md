@@ -4,9 +4,9 @@ date: 2024-04-20
 description: Australian researchers find links between personality traits and serious diseases.
 image: '/blog/sick_link_personality.webp'
 author:
-  name: 'Jonas Enge'
-  username: '@maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: '@aprovapm'
+  link: 'https://twitter.com
   avatar: '/avatars/maccyber.webp'
 ---
 

@@ -20,7 +20,7 @@ export default function LocaleSwitcher() {
       <Select
         selectedKeys={[locale]}
         onChange={onSelectChange}
-        aria-label='Select language'
+        aria-label='Selecione o idioma'
         name='localeSelectSmall'
       >
         {languages.map((lang) => (

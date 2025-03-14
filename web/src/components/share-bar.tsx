@@ -17,7 +17,7 @@ export default function ShareBar({ report }: ShareBarProps) {
 
   return (
     <>
-      <Tooltip color='secondary' content='Share on facebook'>
+      {/*<Tooltip color='secondary' content='Share on facebook'>
         <Button
           isIconOnly
           aria-label='Share on facebook'
@@ -26,7 +26,7 @@ export default function ShareBar({ report }: ShareBarProps) {
           variant='light'
           as={NextUiLink}
           isExternal
-          href={`https://www.facebook.com/sharer/sharer.php?u=https://bigfive-test.com/result/${report.id}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=https://aprovapm.com.br/${report.id}`}
         >
           <FacebookIcon size={48} />
         </Button>
@@ -44,7 +44,7 @@ export default function ShareBar({ report }: ShareBarProps) {
         >
           <TwitterIcon size={42} />
         </Button>
-      </Tooltip>
+      </Tooltip>*/}
       <Tooltip color='secondary' content='Download PDF'>
         <Button
           isIconOnly
@@ -57,7 +57,7 @@ export default function ShareBar({ report }: ShareBarProps) {
           <PDFIcon size={32} />
         </Button>
       </Tooltip>
-      <Tooltip color='secondary' content='Copy link'>
+      {/*<Tooltip color='secondary' content='Copy link'>
         <Button
           isIconOnly
           aria-label='Copy link'
@@ -68,7 +68,7 @@ export default function ShareBar({ report }: ShareBarProps) {
         >
           <CopyIcon size={42} />
         </Button>
-      </Tooltip>
+      </Tooltip>*/}
     </>
   );
 }

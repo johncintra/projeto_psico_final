@@ -30,36 +30,36 @@ export default function AboutPage({ params: { locale } }: Props) {
       </div>
       <div className='mt-2 text-medium lg:mt-4 lg:text-large'>
         <p>
-          Welcome to bigfive-test.com, your premier destination for exploring
-          personality traits using the scientifically acclaimed Big Five model.
-          Our free, open-source test offers detailed insights into the five key
-          dimensions of personality: Openness, Conscientiousness, Extraversion,
-          Agreeableness, and Neuroticism.
-        </p>
+        Bem-vindo ao AprovaPM, seu principal destino para explorar
+        traços de personalidade usando o modelo Big Five cientificamente aclamado.
+        Nosso teste gratuito oferece insights detalhados sobre as cinco principais
+        dimensões da personalidade: Abertura, Conscienciosidade, Extroversão,
+        Agradabilidade e Neuroticismo
+                </p>
         <br />
         <p>
-          Each dimension is carefully analyzed to provide a comprehensive view
-          of your traits and how they influence your behavior and interactions.
+        Cada dimensão é cuidadosamente analisada para fornecer uma visão abrangente
+        de suas características e como elas influenciam seu comportamento e interações.
         </p>
         <p>
-          Developed with precision and accessibility in mind, our test helps you
-          understand yourself better and foster personal growth. Embrace the
-          journey of self-discovery with bigfive-test.com, where psychological
-          insights meet user-friendly technology.
+        Desenvolvido com precisão e acessibilidade em mente, nosso teste ajuda você
+        a se entender melhor e a promover o crescimento pessoal. Abrace essa
+        jornada de autodescoberta, onde insights psicológicos
+        encontram tecnologia amigável.
         </p>
         <br />
-        <p>
+        {/*<p>
           If you have questions please read through the{' '}
           <Link href='/faq' className='underline'>
             FAQ
           </Link>{' '}
           first. If you can&apos;t find an answer there, feel free to contact us
           at bigfive-test@rubynor.com.
-        </p>
+        </p>*/}
       </div>
       <section>
         <div className='text-center justify-center mt-20'>
-          <h2 className={title()}>We love feedback!&nbsp;</h2>
+          <h2 className={title()}>Adoramos feedback!&nbsp;</h2>
           <div className='flex md:inline-flex flex-col md:flex-row items-center'>
             <HeartBoldIcon
               className='text-pink-500 animate-heartbeat'
@@ -70,8 +70,8 @@ export default function AboutPage({ params: { locale } }: Props) {
             />
           </div>
           <div className='mt-2 text-medium lg:mt-4 lg:text-large'>
-            Send us feedback about how our features can be improved or specific
-            issues.
+          Envie-nos feedback sobre como nossos recursos podem ser melhorados ou problemas
+          específicos.
           </div>
         </div>
         <Feedback />

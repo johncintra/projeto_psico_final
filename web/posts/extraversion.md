@@ -4,9 +4,9 @@ date: 2021-12-24
 description: An article on the personality trait extraversion.
 image: '/blog/traits/extraversion_3.webp'
 author:
-  name: 'Jonas Enge'
-  username: 'maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: 'Aprova pm'
+  link: 'https://twitter.com/'
   avatar: '/avatars/maccyber.webp'
 ---
 

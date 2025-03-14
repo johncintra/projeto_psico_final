@@ -88,7 +88,7 @@ export default function Home({ params: { locale } }: Props) {
             </div>
 
             <div className='flex flex-col md:flex-row items-center gap-4 justify-center'>
-              <Link
+              <Link   //botão "Faça um teste gratuito...""
                 href='/test'
                 className={clsx(
                   buttonStyles({
@@ -190,16 +190,16 @@ export default function Home({ params: { locale } }: Props) {
       </div>
 
       <div className='text-center mx-2'>
-        <Link href='/articles' color='foreground'>
+        {/*<Link href='/articles' color='foreground'>
           <h1 className={title()}>Latest posts</h1>
         </Link>
         <h2 className={subtitle({ class: 'mt-4' })}>
           All the latest and greatest news and articles on #personality
-        </h2>
+        </h2>*/}
         <div className='mt-10 grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]'>
-          {posts.map((post, idx) => (
+          {/*{posts.map((post, idx) => (
             <PostCard key={idx} {...post} />
-          ))}
+          ))}*/}
         </div>
         <div className='mt-10'>
           <Link
@@ -210,7 +210,7 @@ export default function Home({ params: { locale } }: Props) {
             href='/articles'
             size='md'
           >
-            Show all articles ...
+           {/* Show all articles ...*/}
           </Link>
         </div>
       </div>

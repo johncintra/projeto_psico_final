@@ -21,7 +21,7 @@ export const Translated = () => {
     );
   return (
     <section className='border-t border-b border-divider px-8 mt-10 text-center'>
-      <div className='my-8'>
+      {/*<div className='my-8'>
         <h3 className={title()}>Translated in multiple languages</h3>
         <div
           x-data='{}'
@@ -43,7 +43,7 @@ export const Translated = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div>*/}
     </section>
   );
 };

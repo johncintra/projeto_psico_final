@@ -25,7 +25,7 @@ export default function Error({
 
   return (
     <main className='flex h-full flex-col items-center justify-center'>
-      <h1 className={title()}>Error</h1>
+      <h1 className={title()}>Erro</h1>
       <h2 className='text-center mt-4'>
         {error ? error.message : 'Something went wrong!'}
       </h2>

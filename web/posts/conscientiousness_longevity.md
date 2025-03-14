@@ -4,9 +4,9 @@ date: 2024-04-19
 description: High conscientiousness seems to pay off through multiple pathways.
 image: '/blog/longevity.webp'
 author:
-  name: 'Jonas Enge'
-  username: '@maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: '@aprovapm'
+  link: 'https://twitter.com'
   avatar: '/avatars/maccyber.webp'
 ---
 

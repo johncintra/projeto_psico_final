@@ -53,7 +53,7 @@ export function calculateReadingTime(content: string) {
 
   // Strip MDX/HTML tags and count the words
   const markdownRegex =
-    /(\[.*?\]\(.*?\)|#+\s|```.*?```|`.*?`|\*\*.*?\*\*|\*\*|__.*?__|_.*?_|!\[.*?\]\(.*?\))/gs;
+    /(\[.*?\]\(.*?\)|#+\s|```.*?```|`.*?`|\*\*.*?\*\*|\*\*|__.*?__|_.*?_|!\[.*?\]\(.*?\))/g;
   const text = content
     .replace(markdownRegex, '')
     .replace(/\s{2,}/g, ' ')

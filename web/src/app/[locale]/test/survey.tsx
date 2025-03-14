@@ -206,13 +206,13 @@ export const Survey = ({
               <InfoIcon />
             </Button>
             <p>
-              Your answers has been restored. Click here to&nbsp;
+            Suas respostas foram restauradas. Clique aqui para&nbsp;
               <a
                 className='underline cursor-pointer'
                 onClick={clearDataInLocalStorage}
                 aria-label='Clear data'
               >
-                start a new test
+                iniciar um novo teste
               </a>
               .
             </p>

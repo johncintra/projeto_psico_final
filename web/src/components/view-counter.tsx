@@ -10,5 +10,5 @@ export async function ViewCounter({ postId }: ViewCounterProps) {
   noStore();
   const views = await kv.incr(postId.replace('.md', ''));
 
-  return <p>{Intl.NumberFormat('en-us').format(views)} views</p>;
+  return <p>{Intl.NumberFormat('en-us').format(views)} views</p>; //'en-us'
 }

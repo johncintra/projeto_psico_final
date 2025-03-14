@@ -4,7 +4,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const basePath = 'https://bigfive-test.com';
 
-export const supportEmail = 'bigfive-test@rubynor.com';
+export const supportEmail = 'contato@aprovapm.com.br';
 
 export type Language = {
   code: string;
@@ -29,7 +29,7 @@ export const languages: Language[] = [
   { code: 'no', name: 'Norwegian', countryCode: 'no', map: ['nb', 'nn'] },
   {
     code: 'pt',
-    name: 'Portuguese',
+    name: 'Português',
     countryCode: 'pt',
     map: ['pt-BR', 'pt-PT']
   },
@@ -133,10 +133,10 @@ export const siteConfig = {
     }
   ],
   links: {
-    github: 'https://github.com/rubynor/bigfive-web',
-    twitter: 'https://twitter.com/rubynor',
-    linkedIn: 'https://www.linkedin.com/company/rubynor-as/',
-    facebook: 'https://www.facebook.com/rubynorno'
+    github: 'https://github.com',
+    twitter: 'https://twitter.com/aprovapm',
+    linkedIn: 'https://www.linkedin.com/aprovapm',
+    facebook: 'https://www.facebook.com/aprovapm'
   }
 };
 

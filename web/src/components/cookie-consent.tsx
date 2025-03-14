@@ -53,12 +53,12 @@ export default function CookieBanner() {
       >
         <ModalContent>
           <ModalHeader className='flex flex-col gap-1'>
-            Cookie consent
+            Consentimento de cookies
           </ModalHeader>
           <ModalBody>
-            <p>We use cookies on our site.</p>
+            <p>Usamos cookies em nosso site.</p>
             <p>
-              Read more in our <Link href='/privacy'>privacy policy</Link>.
+            Leia mais em nossa <Link href='/privacy'>política de Privacidade</Link>.
             </p>
           </ModalBody>
           <ModalFooter className='justify-start'>
@@ -68,7 +68,7 @@ export default function CookieBanner() {
                 startContent={<SettingsIcon />}
                 onPress={handleSettings}
               >
-                Preferences
+                Preferências
               </Button>
             </div>
             <Button
@@ -76,10 +76,10 @@ export default function CookieBanner() {
               variant='light'
               onPress={handleDeclineCookies}
             >
-              Decline
+              Rejeitar
             </Button>
             <Button color='primary' onPress={handleAllowCookies}>
-              Accept all
+              Aceitar tudo
             </Button>
           </ModalFooter>
         </ModalContent>

@@ -36,3 +36,30 @@ next-env.d.ts
 
 # contentlayer
 .contentlayer
+
+# Ignorar arquivos do sistema
+.DS_Store
+.Trash/
+.CFUserTextEncoding
+
+# Ignorar configurações do usuário e do ambiente
+.zsh_history
+.zsh_sessions/
+.zshrc
+.zshenv
+.gitconfig
+
+# Ignorar dependências
+node_modules/
+.pub-cache/
+package-lock.json
+
+# Ignorar arquivos do Flutter e Android Studio
+.dart-tool/
+.gradle/
+.android/
+.cocoapods/
+.swiftpm/
+
+# Ignorar arquivos sensíveis
+chave.jks

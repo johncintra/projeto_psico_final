@@ -4,9 +4,9 @@ date: 2024-04-22
 description: A study examines how personality traits like extraversion, conscientiousness, and agreeableness affect the satisfaction of basic psychological needs such as autonomy, competence, and relatedness.
 image: '/blog/self_care.webp'
 author:
-  name: 'Jonas Enge'
-  username: '@maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: '@aprovapm'
+  link: 'https://twitter.com/'
   avatar: '/avatars/maccyber.webp'
 ---
 

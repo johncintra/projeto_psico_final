@@ -1,6 +1,6 @@
 const portuguese = {
   language: {
-    label: 'Brazil Português',
+    label: 'Brasil Português',
     locale: 'pt'
   },
   seo: {
@@ -68,11 +68,11 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   toolbar: {
     home: 'Início',
-    result: 'Resultado',
-    compare: 'Compare',
-    articles: 'Artigos',
-    privacy: 'Privacidade',
-    about: 'Sobre',
+    result: '',//'Resultado',
+    compare: '',//'Compare',
+    articles: '',//'Artigos',
+    privacy: '',//'Privacidade',
+    about: '',//'Sobre',
     see_results: 'Veja seus resultados',
     compare_with: 'Compare com outros',
     faq: 'FAQ'
@@ -192,8 +192,8 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   results: {
     theBigFive: 'Os Cinco Grandes',
     score: 'pontuação',
-    important: 'Importante!',
-    saveResults: 'Salve a seguinte ID para ver os resultados depois.',
+    important: '',//'Importante!',
+    saveResults: '',//'Salve a seguinte ID para ver os resultados depois.',
     compare: '',//'compare-se',
     toOthers: '',//'com ou outros',
     seo: {

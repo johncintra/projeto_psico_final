@@ -50,7 +50,7 @@ export const BarChart = ({ max, results }: BarChartProps) => {
 
   const series = [
     {
-      name: 'You',
+      name: 'Você',
       data: results.map((result: any) => result.score)
     }
   ];

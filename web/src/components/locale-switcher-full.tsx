@@ -37,11 +37,11 @@ export default function LocaleSwitcher() {
     );
   return (
     <div className='w-40'>
-      <Select
+      <Select //opção de escolher linguagem
         name='localeSelect'
         selectedKeys={[locale]}
         onChange={onSelectChange}
-        aria-label='Select language'
+        aria-label='Selecione o idioma'
         startContent={countryAvatar(usedLocale)}
       >
         {languages.map((lang) => (

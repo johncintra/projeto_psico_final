@@ -4,9 +4,9 @@ date: 2021-12-24
 description: An article on the personality trait Neuroticism.
 image: '/blog/traits/neuroticism_2.webp'
 author:
-  name: 'Jonas Enge'
-  username: 'maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: 'aprovapm'
+  link: 'https://twitter.com'
   avatar: '/avatars/maccyber.webp'
 ---
 

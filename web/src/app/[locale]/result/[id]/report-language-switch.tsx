@@ -25,11 +25,11 @@ export const ReportLanguageSwitch = ({
       <Select
         defaultSelectedKeys={[language]}
         onChange={onSelectChange}
-        aria-label='Select language'
+        aria-label='Selecione o idioma'
         name='localeSelectSmall'
         className='w-48'
         size='sm'
-        label='Report language'
+        label='Selecione o idioma'
       >
         {availableLanguages.map((lang) => (
           <SelectItem key={lang.id} value={lang.id} textValue={lang.text}>

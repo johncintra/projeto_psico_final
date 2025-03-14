@@ -4,9 +4,9 @@ date: 2024-04-20
 description: A study examines how the Big Five personality traits impact relationship satisfaction
 image: '/blog/couple_in_love.webp'
 author:
-  name: 'Jonas Enge'
-  username: '@maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: '@aprovapm'
+  link: 'https://twitter.com/'
   avatar: '/avatars/maccyber.webp'
 ---
 

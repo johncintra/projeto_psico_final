@@ -4,9 +4,9 @@ date: 2024-04-21
 description: Discover the Dark Core of Personality, a study revealing how traits like narcissism and Machiavellianism are interconnected and shape unethical behaviors.
 image: '/blog/dark_core_of_personality.webp'
 author:
-  name: 'Jonas Enge'
-  username: '@maccyber'
-  link: 'https://twitter.com/maccyber'
+  name: 'Aprova PM'
+  username: '@aprovapm'
+  link: 'https://twitter.com/
   avatar: '/avatars/maccyber.webp'
 ---
 

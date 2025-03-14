@@ -24,10 +24,10 @@ export default function Footer({ footerLinks }: FooterProps) {
       <div className='container mx-auto flex justify-between'>
         <div className='w-1/2'>
           <span className='text-center'>
-            <Logo />
+            {/*<Logo />*/}
           </span>
         </div>
-        <div className='w-1/2 flex justify-end'>
+        {/*<div className='w-1/2 flex justify-end'>
           <NextUILink
             isExternal
             href={siteConfig.links.twitter}
@@ -56,10 +56,10 @@ export default function Footer({ footerLinks }: FooterProps) {
           >
             <FacebookIcon size={48} className='text-default-500' />
           </NextUILink>
-        </div>
+        </div>*/}
       </div>
 
-      <div className='w-full flex justify-center mt-12'>
+      {/*<div className='w-full flex justify-center mt-12'>
         <ul className='flex mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0'>
           {footerLinks.map((item, index) => (
             <li key={index}>
@@ -69,10 +69,10 @@ export default function Footer({ footerLinks }: FooterProps) {
             </li>
           ))}
         </ul>
-      </div>
+      </div>*/}
 
       <div className='flex text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:py-2 mt-14 justify-center'>
-        © {year} — B5 Holding AS - all rights reserved.
+        © {year} — Aprova PM - Todos direitos reservados.
       </div>
     </footer>
   );

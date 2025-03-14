@@ -56,7 +56,7 @@ const languages: Language[] = [
   },
   {
     code: 'pt-br',
-    name: 'Portuguese Brazilian'
+    name: 'Português Brasil'
   },
   {
     code: 'id',

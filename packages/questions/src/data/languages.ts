@@ -61,7 +61,7 @@ const languages: Language[] = [
   { code: "sv", name: "Swedish" },
   { code: "hr", name: "Croatian" },
   { code: "et", name: "Estonian" },
-  { code: "pt-br", name: "Brazilian Portuguese" },
+  { code: "pt-br", name: "Português Brasil" },
   { code: "ar", name: "Arabic" },
   { code: "he", name: "Hebrew" },
   { code: "pl", name: "Polish" },
