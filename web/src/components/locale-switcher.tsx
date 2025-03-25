@@ -5,6 +5,9 @@ import { languages } from '../config/site';
 import { Select, SelectItem } from '@nextui-org/select';
 import { useRouter, usePathname } from '../navigation';
 
+console.log('Pathname atual:', usePathname());
+
+
 export default function LocaleSwitcher() {
   const locale = useLocale();
 
