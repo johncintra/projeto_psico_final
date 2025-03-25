@@ -6,7 +6,7 @@ image: '/blog/dark_core_of_personality.webp'
 author:
   name: 'Aprova PM'
   username: '@aprovapm'
-  link: 'https://twitter.com/
+  link: 'https://twitter.com/'
   avatar: '/avatars/maccyber.webp'
 ---
 

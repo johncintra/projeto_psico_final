@@ -22,7 +22,7 @@ export const ReportLanguageSwitch = ({
 
   return (
     <div className='w-30'>
-      <Select
+      {/*<Select
         defaultSelectedKeys={[language]}
         onChange={onSelectChange}
         aria-label='Selecione o idioma'
@@ -36,7 +36,7 @@ export const ReportLanguageSwitch = ({
             {lang.text}
           </SelectItem>
         ))}
-      </Select>
+      </Select>*/}
     </div>
   );
 };

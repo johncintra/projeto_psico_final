@@ -18,7 +18,7 @@ export default function TestPage({
 }: Props) {
   unstable_setRequestLocale(locale);
   const language =
-    lang || (questionLanguages.some((l) => l.id === locale) ? locale : 'en');
+    lang || (questionLanguages.some((l) => l.id === locale) ? locale : 'pt-br');
   const questions = getItems(language);
   const t = useTranslations('test');
   return (
@@ -26,7 +26,7 @@ export default function TestPage({
       <div className='flex'>
         <TestLanguageSwitch
           availableLanguages={questionLanguages}
-          language={language}
+          language={language}//{'pt-br'}{language}
         />
       </div>
       <Survey

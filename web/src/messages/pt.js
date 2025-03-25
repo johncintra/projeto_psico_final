@@ -12,16 +12,16 @@ const portuguese = {
       title:
         'Aprova PM',
       description:
-        'Faça gratuitamente um teste de personalidade Big Five de código aberto. Aprenda a conhecer seus traços de personalidade e compare-se com seu parceiro ou parceira, colegas, amigos ou família.'
+        'Faça gratuitamente um teste de personalidade Big Five de código aberto. Aprenda a conhecer seus traços de personalidade.'
     },
     title: 'Teste de Personalidade Big Five',
     call_to_action: 'Faça um teste gratuito agora',
     no_registration:'', //'* Não se registrar',
     tests_taken: '', //'Mais de <green>{n}</green> pessoas fizeram o teste',
     compare: {
-      title: 'Compare-se com outros',
+      title: '',//'Compare-se com outros',
       text1:
-        'Compare-se com o seu parceiro ou parceira, colegas, amigos ou família.',
+        '',//'Compare-se com o seu parceiro ou parceira, colegas, amigos ou família.',
       text2: 'Saiba como você difere de outras pessoas em cinco domínios:',
       action: 'Veja ao vivo em ação'
     },
@@ -29,8 +29,8 @@ const portuguese = {
       'Compartilhe com seus amigos e descubra o quão compatíveis vocês são',
     cards: {
       open: {
-        title: 'Aberto',
-        text: 'Este é um projeto de código aberto sob a licença MIT.'
+        title: '',//'Aberto',
+        text: '',//'Este é um projeto de código aberto sob a licença MIT.'
       },
       free: {
         title: 'Gratuito',
@@ -41,8 +41,8 @@ const portuguese = {
         text: 'Big Five é um modelo psicológico cientificamente validado e confiável.'
       },
       translated: {
-        title: 'Traduzido',
-        text: 'Traduzido para mais de 20 idiomas. Ajude <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">aqui</a>!'
+        title: '',//'Traduzido',
+        text: '',//'Traduzido para mais de 20 idiomas. Ajude <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">aqui</a>!'
       }
     },
     description: {
@@ -61,9 +61,9 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   about: {
     seo: {
-      title: 'Sobre a equipe BigFive',
+      title: 'Sobre a equipe Aprova PM',
       description:
-        'BigFive tem uma equipe muito ativa e engajada que está constantemente se esforçando para levar o BigFive adiante.'
+        'AprovaPM tem uma equipe muito ativa e engajada que está sempre pronta pra dar aquele suporte excluivo.'
     }
   },
   toolbar: {
@@ -73,9 +73,9 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     articles: '',//'Artigos',
     privacy: '',//'Privacidade',
     about: '',//'Sobre',
-    see_results: 'Veja seus resultados',
-    compare_with: 'Compare com outros',
-    faq: 'FAQ'
+    see_results: '',//'Veja seus resultados',
+    compare_with: '',//'Compare com outros',
+    faq: '',//'FAQ'
   },
   facets: {
     openness_to_experience: {
@@ -192,9 +192,9 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   results: {
     theBigFive: 'Os Cinco Grandes',
     score: 'pontuação',
-    important: '',//'Importante!',
-    saveResults: '',//'Salve a seguinte ID para ver os resultados depois.',
-    compare: '',//'compare-se',
+    important: 'Dúvidas?',
+    saveResults: 'Salve a seguinte ID e envie para nosso especialista te auxiliar.',
+    compare: '',//<a href="https://www.exemplo.com" target="_blank">FALAR COM ESPECIALISTA</a>,
     toOthers: '',//'com ou outros',
     seo: {
       title: 'Meus resultados do teste de personalidade',

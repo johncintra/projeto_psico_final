@@ -24,12 +24,12 @@ export const TestLanguageSwitch = ({
 
   return (
     <div className='w-30'>
-      <Select
+      {/*<Select
         defaultSelectedKeys={[language]}
         onChange={onSelectChange}
         aria-label='Selecione o idioma'
         size='sm'
-        name='localeSelectSmall'
+        name= 'localeSelectSmall'
         className='w-48'
         label='Selecione o idioma'
         items={availableLanguages}
@@ -39,7 +39,7 @@ export const TestLanguageSwitch = ({
             {language.text}
           </SelectItem>
         )}
-      </Select>
+      </Select>*/}
     </div>
   );
 };

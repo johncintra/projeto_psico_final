@@ -4,10 +4,10 @@ export default function PrivacyPage() {
   return (
     <>
       <div className='text-center'>
-        <h1 className={title()}>Privacy</h1>
-        <h5 className='text-default-500 text-lg'>Our privacy policy</h5>
+        <h1 className={title()}>{/*Privacy*/}</h1>
+        <h5 className='text-default-500 text-lg'>{/*Our privacy policy*/}</h5>
       </div>
-      <div className='mt-10'>
+      {/*<div className='mt-10'>
         This privacy policy will explain how we use the personal data we collect
         from you when you use our website.
         <h2>What data do we collect?</h2>
@@ -78,7 +78,7 @@ export default function PrivacyPage() {
           contact
         </a>{' '}
         us.
-      </div>
+      </div>*/}
     </>
   );
 }

@@ -78,9 +78,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
       <div className='text-center mt-4'>
         <span className='font-bold'>{t('important')}</span> &nbsp;
         {t('saveResults')} &nbsp;
-        <Link href={`/compare/?id=${report.id}`} className='underline'>
-          {t('compare')}
-        </Link>{' '}
+        
         &nbsp;
         {t('toOthers')}
       </div>

@@ -1,7 +1,7 @@
 import languages, { Language, LanguageCode } from './data/languages';
 import path from 'path';
 
-export async function getItems(languageCode: LanguageCode = 'en'): Promise<Question[]> {
+export async function getItems(languageCode: LanguageCode = 'pt-br'): Promise<Question[]> {
   try {
     const questions: Question[] = (await import(path.join(__dirname, 'data', languageCode, 'questions'))).default;
     const choices: ChoiceKeyed[] = (await import(path.join(__dirname, 'data', languageCode, 'choices'))).default;

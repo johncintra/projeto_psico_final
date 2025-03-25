@@ -5,13 +5,13 @@ import { Accordion, AccordionItem } from '@nextui-org/accordion';
 export default function FaqPage() {
   const faq = [
     {
-      question: 'I got an error on this website',
+      question: 'Recebi um erro neste site',
       answer:
-        'Submit an issue at GitHub or send us an e-mail at bigfive-test@rubynor.com'
+        'Envie o problema no e-mail para contato@aprovapm.com.br'
     },
-    {
-      question: 'Can I use the code for this website for Commercial Purposes?',
-      answer: 'Yes, this project is licensed under the MIT license.'
+    /*{
+      question: 'Quero saber mais sobre',
+      answer: 'Sim, este projeto está licenciado.'
     },
     {
       question: 'Can I use the questions for Commercial Purposes?',
@@ -46,11 +46,11 @@ export default function FaqPage() {
     {
       question: 'Where can I find the code?',
       answer: 'The code is found here at GitHub.'
-    }
+    }*/
   ];
   return (
     <div>
-      <h1 className={title()}>Frequently asked questions.</h1>
+      <h1 className={title()}>Perguntas frequentes.</h1>
       <Accordion className='mt-10'>
         {faq.map((item, index) => (
           <AccordionItem

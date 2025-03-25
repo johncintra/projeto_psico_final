@@ -17,9 +17,9 @@ export default function LocaleSwitcher() {
     router.replace(pathname, { locale: nextLocale });
   }
   const usedLocale = languages.find((lang) => lang.code === locale) || {
-    name: 'English',
-    code: 'en',
-    countryCode: 'us'
+    name: 'Português',
+    code: 'pt-br',
+    countryCode: 'br'
   };
   const countryAvatar = (lang: Language) =>
     lang.countryCode ? (
